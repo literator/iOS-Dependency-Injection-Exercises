@@ -1,0 +1,43 @@
+PODS:
+  - AFNetworking (2.0.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AFNetworking/UIKit
+  - AFNetworking/NSURLConnection (2.0.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.0.3):
+    - AFNetworking/NSURLConnection
+  - AFNetworking/Reachability (2.0.3)
+  - AFNetworking/Security (2.0.3)
+  - AFNetworking/Serialization (2.0.3)
+  - AFNetworking/UIKit (2.0.3):
+    - AFNetworking/NSURLConnection
+  - Kiwi/ARC (2.2.3)
+  - Kiwi/NonARC (2.2.3)
+  - Kiwi/XCTest (2.2.3):
+    - Kiwi/ARC
+    - Kiwi/NonARC
+  - PLCoreDataUtils (1.1)
+  - PLVisualAttributeConstraints (1.0.1)
+  - TEAChart (0.0.2)
+
+DEPENDENCIES:
+  - AFNetworking
+  - Kiwi/XCTest
+  - PLCoreDataUtils
+  - PLVisualAttributeConstraints
+  - TEAChart
+
+SPEC CHECKSUMS:
+  AFNetworking: e499052cbf3d743e9bb727bb37adb9dc2547ba15
+  Kiwi: 04c51e880831d291748ec702d42c4101f7eb95c9
+  PLCoreDataUtils: a2791b838747879e4adc7defe006c4a15bc95f4f
+  PLVisualAttributeConstraints: 8ce211305c32d0c9370486215156ba33d017895a
+  TEAChart: 579a8e5b8491ffdf27a2188bd345afa3631c3a03
+
+COCOAPODS: 0.28.0

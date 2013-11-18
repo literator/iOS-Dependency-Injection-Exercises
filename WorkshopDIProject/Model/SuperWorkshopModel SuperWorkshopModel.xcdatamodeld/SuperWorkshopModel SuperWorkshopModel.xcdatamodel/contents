@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3401" systemVersion="13A603" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="PLQuestionEntity" representedClassName="PLQuestionEntity" syncable="YES">
+        <attribute name="answeredCorrectly" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="id" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="level" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="test" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PLTestEntity" inverseName="questions" inverseEntity="PLTestEntity" syncable="YES"/>
+    </entity>
+    <entity name="PLTestEntity" representedClassName="PLTestEntity" syncable="YES">
+        <attribute name="id" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="score" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <relationship name="questions" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PLQuestionEntity" inverseName="test" inverseEntity="PLQuestionEntity" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="PLTestEntity" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="PLQuestionEntity" positionX="0" positionY="0" width="0" height="0"/>
+    </elements>
+</model>
