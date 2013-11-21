@@ -7,6 +7,7 @@
 //
 
 #import <Kiwi/Kiwi.h>
+#import "Objection.h"
 #import "PLSumatorProtocol.h"
 #import "PLSimpleSumator.h"
 #import "PLGroupSumator.h"
