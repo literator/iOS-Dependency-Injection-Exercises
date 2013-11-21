@@ -25,6 +25,7 @@ PODS:
   - PLCoreDataUtils (1.1)
   - PLVisualAttributeConstraints (1.0.1)
   - TEAChart (0.0.2)
+  - Typhoon (1.5.3)
 
 DEPENDENCIES:
   - AFNetworking
@@ -32,6 +33,7 @@ DEPENDENCIES:
   - PLCoreDataUtils
   - PLVisualAttributeConstraints
   - TEAChart
+  - Typhoon
 
 SPEC CHECKSUMS:
   AFNetworking: e499052cbf3d743e9bb727bb37adb9dc2547ba15
@@ -39,5 +41,6 @@ SPEC CHECKSUMS:
   PLCoreDataUtils: a2791b838747879e4adc7defe006c4a15bc95f4f
   PLVisualAttributeConstraints: 8ce211305c32d0c9370486215156ba33d017895a
   TEAChart: 579a8e5b8491ffdf27a2188bd345afa3631c3a03
+  Typhoon: 486a9507a0d7d674e3dc023e77603fefd02aedd3
 
 COCOAPODS: 0.28.0
